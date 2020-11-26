@@ -62,11 +62,13 @@ public class NumberService {
 
     public boolean isPrime(int number){
         boolean flag = true;
-        for (int i = 2; i <= number / 2; i++){
+        int i = 2;
+        while (i <= number / 2){
             if(number % i == 0){
                 flag = false;
                 break;
             }
+            i++;
         }
         return flag;
     }

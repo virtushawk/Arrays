@@ -2,7 +2,9 @@ package edu.epam.array.service;
 
 import edu.epam.array.entity.NumberArray;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class NumberSortTest {
 
